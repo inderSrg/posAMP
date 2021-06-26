@@ -1,6 +1,5 @@
 {
   "name": "posamp",
-  "homepage": "https://inderSrg.github.io/pocAMP",
   "version": "1.0.0",
   "description": "AMP Pages demo",
   "main": "index.js",
