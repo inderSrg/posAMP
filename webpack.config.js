@@ -12,9 +12,6 @@ module.exports = {
   target: 'node',
   devServer: {
     historyApiFallback: true,
-    port: '3000',
-    contentBase: ['./public'],
-    open: true,
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
@@ -82,7 +79,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: path.resolve(__dirname, 'public/index.html'),
+      template: path.resolve(__dirname, 'src/index.html'),
       filename: 'index.html',
     }),
   ],
